@@ -9,7 +9,7 @@ This is my solution to the [Huddle landing page with curved sections challenge o
 ### Links
 
 - Solution URL: [Check solution]()
-- Live Site URL: [Visit LIVE URL]()
+- Live Site URL: [Visit LIVE URL](thefacehuddle.netlify.app)
 
 ## My process
 

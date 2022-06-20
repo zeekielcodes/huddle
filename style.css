@@ -40,7 +40,9 @@ nav button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   min-height: 100vh;
+  width: 100%;
 }
 
 .banner h1 {
@@ -158,7 +160,7 @@ nav button {
   background-position: ;
   background-repeat: no-repeat;
   background-size: ;
-  padding: 10em;
+  padding: 3em 10em;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -195,8 +197,150 @@ nav button {
   border: none;
 }
 
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 2em 0;
+}
+
 .footer img {
   width: 3em;
   height: 3em;
   margin: 1em 0.5em 0 0;
+}
+
+@media (max-width: 940px) {
+  nav,
+  .banner,
+  .community,
+  .build,
+  .grow,
+  .flow,
+  .footer {
+    padding: 4em;
+  }
+  .banner {
+    text-align: center;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .footer P {
+    width: 90%;
+  }
+
+  .footer div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 1em 2em;
+  }
+
+  nav button {
+    height: 2em;
+  }
+
+  .banner {
+    padding: 4em 2em;
+    height: unset;
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner p {
+    width: unset;
+    font-size: 1.6em;
+  }
+
+  .banner h1 {
+    font-size: 3.5em;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .community {
+    flex-direction: column;
+    padding: 2em;
+    text-align: center;
+  }
+
+  .community div {
+    margin-bottom: 3em;
+  }
+
+  .grow {
+    flex-direction: column-reverse;
+    padding: 2em;
+    height: unset;
+    text-align: center;
+  }
+
+  .grow div {
+    width: 100%;
+    margin: 2em 0;
+  }
+
+  .grow p {
+    width: unset;
+  }
+
+  .flow {
+    flex-direction: column-reverse;
+    padding: 2em;
+    text-align: center;
+  }
+
+  .flow div {
+    width: unset;
+    margin: 2em 0;
+  }
+
+  .flow p {
+    width: unset;
+  }
+
+  .build {
+    padding: 4em;
+  }
+
+  .build h4 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .build a {
+    font-size: 1.6em;
+    padding: 1em 2em;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+    padding: 2em;
+  }
+
+  .footer p {
+    width: unset;
+  }
+
+  .footer div {
+    margin: 2em 0;
+    width: unset;
+  }
+
+  .footer input {
+    margin: 1em 0;
+  }
+
+  .footer img {
+    height: 2em;
+    margin-top: 2em;
+    width: 2em;
+  }
 }
