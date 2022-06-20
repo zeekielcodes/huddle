@@ -241,6 +241,10 @@ nav button {
     padding: 1em 2em;
   }
 
+  nav img {
+    height: 2.5em;
+  }
+
   nav button {
     height: 2em;
   }
@@ -259,6 +263,7 @@ nav button {
 
   .banner h1 {
     font-size: 3.5em;
+    line-height: 1.2;
   }
 
   .banner img {
@@ -336,6 +341,7 @@ nav button {
 
   .footer input {
     margin: 1em 0;
+    width: 80%;
   }
 
   .footer img {
