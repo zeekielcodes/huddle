@@ -154,7 +154,7 @@ nav button {
   width: 100%;
 }
 
-.footer {
+footer {
   /* background: url(./images/bg-footer-top-desktop.svg); */
   background-color: hsl(192, 100%, 9%);
   background-position: ;
@@ -167,18 +167,18 @@ nav button {
   font-size: 1.4em;
 }
 
-.footer p {
+footer p {
   width: 70%;
   margin: 1em 0;
 }
 
-.footer h5 {
+footer h5 {
   font-size: 1.5em;
   text-transform: uppercase;
   font-family: Poppins;
 }
 
-.footer input {
+footer input {
   width: 28em;
   height: 3em;
   border-radius: 0.5em;
@@ -186,7 +186,7 @@ nav button {
   margin-right: 1em;
 }
 
-.footer button {
+footer button {
   width: 9em;
   font-size: 1em;
   font-family: Open sans;
@@ -197,13 +197,13 @@ nav button {
   border: none;
 }
 
-.footer a {
+footer a {
   color: white;
   text-decoration: none;
   margin-bottom: 2em 0;
 }
 
-.footer img {
+footer img {
   width: 3em;
   height: 3em;
   margin: 1em 0.5em 0 0;
@@ -216,7 +216,7 @@ nav button {
   .build,
   .grow,
   .flow,
-  .footer {
+  footer {
     padding: 4em;
   }
   .banner {
@@ -227,11 +227,11 @@ nav button {
     width: 100%;
   }
 
-  .footer P {
+  footer P {
     width: 90%;
   }
 
-  .footer div {
+  footer div {
     width: 50%;
   }
 }
@@ -326,26 +326,34 @@ nav button {
     padding: 1em 2em;
   }
 
-  .footer {
+  footer {
     flex-direction: column-reverse;
     padding: 2em;
   }
 
-  .footer p {
+  footer p {
     width: unset;
   }
 
-  .footer div {
+  footer div {
     margin: 2em 0;
     width: unset;
   }
 
-  .footer input {
+  footer form {
+    text-align: right;
+  }
+
+  footer input {
     margin: 1em 0;
     width: 80%;
   }
 
-  .footer img {
+  .wave {
+    margin-bottom: -0.5em;
+  }
+
+  footer img {
     height: 2em;
     margin-top: 2em;
     width: 2em;

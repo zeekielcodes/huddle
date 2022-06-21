@@ -8,7 +8,7 @@ This is my solution to the [Huddle landing page with curved sections challenge o
 
 ### Links
 
-- Solution URL: [Check solution]()
+- Solution URL: [Check solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-dxF0yBf0hx)
 - Live Site URL: [Visit LIVE URL](thefacehuddle.netlify.app)
 
 ## My process
