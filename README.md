@@ -21,6 +21,6 @@ This is my solution to the [Huddle landing page with curved sections challenge o
 
 ## Author
 
-- Website - [Ezekiel The Face](https://thefaceportfolio.netlify.app)
+- Portfolio - [Ezekiel The Face](https://thefacecodes.web.app)
 - Frontend Mentor - [@iamtheface](https://www.frontendmentor.io/profile/iamtheface)
-- Twitter - [@thefacetweets](https://www.twitter.com/thefacetweets)
+- Twitter - [@thefacecodes](https://www.twitter.com/thefacecodes)
